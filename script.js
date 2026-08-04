@@ -22,21 +22,21 @@ const perguntas = [
         enunciado: "Conforme você avança no seu percurso, acha algumas cabanas, o que você faz?",
         alternativas: [
             {
-                texto: "Você espera os habitantes chegarem para observar",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Observo de longe",
+                afirmacao: "Você foi visto por um nativo de longe, ele chama o seu povo para te ver"
             },
             {
-                texto: "Você entra nas cabanas, procurando suprimentos",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Me aproximo calmamente, procurando se tem alguem por perto",
+                afirmacao: "Um nativo aparece atrás de você"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Você acabou sendo visto por habitantes, Qual é sua atitude?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Corro o mais rápido possivél",
+                afirmacao: ""
             },
             {
                 texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
