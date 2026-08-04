@@ -10,23 +10,23 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Procuro uma vila próxima",
-                afirmacao: "Prioriza a convivência social por sobrevivência e aposta no improvável"
+                afirmacao: "Em sua jornada, você se depara com algumas cabanas"
             },
             {
                 texto: "Procuro água",
-                afirmacao: "Prioriza a sobrevivência solo e prefere apostar no provável"
+                afirmacao: "Em sua jornada, você acha um lago com água doce, de longe vê algumas cabanas"
             }
         ]
     },
     {
-        enunciado: "Conforme você avança no seu percurso, acha algumas cabanas, sem ninguem por perto",
+        enunciado: "Conforme você avança no seu percurso, acha algumas cabanas, o que você faz?",
         alternativas: [
             {
-                texto: "Você espera os habitantes chegarem",
+                texto: "Você espera os habitantes chegarem para observar",
                 afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
             },
             {
-                texto: "Você entra nas cabanas procurando suprimentos",
+                texto: "Você entra nas cabanas, procurando suprimentos",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em sua casa...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
