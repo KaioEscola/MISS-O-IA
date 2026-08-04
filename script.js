@@ -1,6 +1,8 @@
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
+let caixaAfirmacao = afirmacoes;
+
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
@@ -27,7 +29,7 @@ const perguntas = [
             },
             {
                 texto: "Me aproximo calmamente, procurando se tem alguem por perto",
-                afirmacao: "Um nativo aparece atrás de você"
+                afirmacao1: "Um nativo aparece atrás de você"
             }
         ]
     },
@@ -36,7 +38,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Corro o mais rápido possivél",
-                afirmacao: ""
+                afirmacao = conseguencia1 + ""
             },
             {
                 texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
